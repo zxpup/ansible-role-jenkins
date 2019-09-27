@@ -4,7 +4,6 @@
     name:
       - curl
       - apt-transport-https
-      - gnupg
     state: present
 
 - name: Add Jenkins apt repository key.
